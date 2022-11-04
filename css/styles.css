@@ -161,10 +161,23 @@ header .container {
     color: var(--accent-color);
 }
 /* hero */
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C4C4C4;
+    background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover; 
+    
+}
+
+
 .hero {
     text-align: center;
-    background-color: var(--hero-bg-color);
-    padding: 200px 0;
+    /* background-color: var(--hero-bg-color); */
+    /* padding: 200px 0; */
     
 
 }
