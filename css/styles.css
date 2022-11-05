@@ -150,6 +150,7 @@ header .container {
 }
 
 .auth-nav .link {
+    display: flex;
     color: var(--primary-text-color);
     text-decoration: none;
     font-weight: 500;
@@ -159,6 +160,28 @@ header .container {
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: var(--accent-color);
+}
+.mail-icon::before {
+    
+    width: 12px;
+    height: 16px;
+    margin-right: 10px;
+    content: " ";
+    background-image: url(../images/envelope.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tel-icon::before {
+    
+    width: 12px;
+    height: 16px;
+    margin-right: 10px;
+    content: " ";
+    background-image: url(../images/smartphone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 /* hero */
 .overlay {
@@ -240,6 +263,51 @@ header .container {
     overflow: hidden;
   }
 /* feature */
+.antenna-icon::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background:  #F5F4FA;
+    margin-bottom: 30px;
+    background-image: url( ../images/antenna.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.clock-icon::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background:  #F5F4FA;
+    margin-bottom: 30px;
+    background-image: url(../images/clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.diagram-icon::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background:  #F5F4FA;
+    margin-bottom: 30px;
+    background-image:url(../images/diagram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.astronaut-icon::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background:  #F5F4FA;
+    margin-bottom: 30px;
+    background-image:url(../images/astronaut.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
 .feature-list {
     display: flex;
     gap: 30px;
