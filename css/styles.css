@@ -395,6 +395,23 @@ header .container {
 
     
 }
+.clients {
+    outline: 1px solid teal;
+    margin-bottom: 85px;
+}
+.clients-title {
+ text-align: center;
+}
+.clients-list {
+    display: flex;
+ 
+}
+.clients-icon {
+    width: 170px;
+    height: 92px;
+}
+
+
 /* footer */
 .footer {
     background-color: var(--hero-bg-color);
