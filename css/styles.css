@@ -400,6 +400,7 @@ header .container {
 .team-soc-link {
     width: 44px;
     height: 44px;
+    fill: #AFB1B8;
 
     display: flex;
     flex-direction: row;
@@ -410,13 +411,13 @@ header .container {
 .team-soc-link:hover,
 .team-soc-link:focus {
     background-color: #2196F3;
-    fill: #FFFFFF;
+    fill:#2196F3;
   
 }
 .team-soc-icon {
     width: 44px;
     height: 44px;
-   fill: #AFB1B8;
+  
 }
 /* clients */
 .clients {
@@ -452,12 +453,19 @@ border-radius: 4px;
 .clients-icon {
     width: 170px;
     height: 92px;
-    justify-content: space-between;
+    fill:red;
+
+
+}
+.clients-icon:hover,
+.clients-icon:focus {
+    fill:#2196F3;
+
 }
 
 
 /* footer */
-.footer-position {
+.footer-container {
     display: flex;
 }
 .footer {
@@ -472,23 +480,23 @@ border-radius: 4px;
     line-height: 1.19;
     
 }
+.footer-position {
+    margin-right: 70px;
+}
 .footer-soc {
 width: 116px;
 height: 16px;
-left: 516px;
-top: 2748px;
+
 
 width: 206px;
 height: 80px;
 
 }
 .footer-soc-title {
-   
-position: absolute;
 width: 116px;
 height: 16px;
-left: 516px;
-top: 2748px;
+margin-bottom: 20px;
+
 
 
 font-size: 14px;
@@ -498,12 +506,11 @@ text-transform: uppercase;
 color: var(--hero-text-color);
 }
 .footer-soc-item {
-    position: absolute;
 width: 206px;
 height: 44px;
-left: 516px;
-top: 2784px;
+
 }
+
 
 
 /* contacts */
