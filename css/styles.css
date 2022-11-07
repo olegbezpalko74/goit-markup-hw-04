@@ -400,10 +400,10 @@ header .container {
 .team-soc-link {
     width: 44px;
     height: 44px;
-    fill: #AFB1B8;
-    background-color:var(--hero-text-color);
+
     display: flex;
     flex-direction: row;
+    margin-right: 10px;
 
 
 }
@@ -412,6 +412,11 @@ header .container {
     background-color: #2196F3;
     fill: #FFFFFF;
   
+}
+.team-soc-icon {
+    width: 44px;
+    height: 44px;
+   fill: #AFB1B8;
 }
 /* clients */
 .clients {
@@ -468,9 +473,36 @@ border-radius: 4px;
     
 }
 .footer-soc {
+width: 116px;
+height: 16px;
+left: 516px;
+top: 2748px;
+
 width: 206px;
 height: 80px;
 
+}
+.footer-soc-title {
+   
+position: absolute;
+width: 116px;
+height: 16px;
+left: 516px;
+top: 2748px;
+
+
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--hero-text-color);
+}
+.footer-soc-item {
+    position: absolute;
+width: 206px;
+height: 44px;
+left: 516px;
+top: 2784px;
 }
 
 
