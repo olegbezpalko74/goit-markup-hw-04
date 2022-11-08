@@ -85,7 +85,7 @@ padding: 94px 0;
     color: inherit;
 }
 header {
-    border-bottom: 5px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 header .container {
@@ -161,28 +161,15 @@ header .container {
 .auth-nav .link:focus {
     color: var(--accent-color);
 }
-.mail-icon::before {
-    
-    width: 12px;
-    height: 16px;
+.mail-icon,
+.tel-icon {
+    width: 16px;
+    height: 12px;
     margin-right: 10px;
-    content: " ";
-    background-image: url(../images/envelope.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    fill: currentColor;
+
 }
-.tel-icon::before {
-    
-    width: 12px;
-    height: 16px;
-    margin-right: 10px;
-    content: " ";
-    background-image: url(../images/smartphone.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+
 /* hero */
 .overlay {
     max-width: 1600px;
@@ -193,6 +180,7 @@ header .container {
     background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/hero.jpg);
     background-position: center;
     background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
@@ -272,6 +260,7 @@ header .container {
     background-image: url( ../images/antenna.svg);
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 4px;
     
 }
 .clock-icon::before {
@@ -283,6 +272,7 @@ header .container {
     background-image: url(../images/clock.svg);
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 4px;
     
 }
 .diagram-icon::before {
@@ -294,6 +284,7 @@ header .container {
     background-image:url(../images/diagram.svg);
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 4px;
     
 }
 .astronaut-icon::before {
@@ -305,6 +296,7 @@ header .container {
     background-image:url(../images/astronaut.svg);
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 4px;
     
 }
 
@@ -394,29 +386,34 @@ header .container {
 .socials {
     display: flex;
     justify-content: center;
+    gap: 10px;
 
     
 }
 .team-soc-link {
     width: 44px;
     height: 44px;
-    fill: #AFB1B8;
+    color: #AFB1B8;
+    border-radius: 50%;
+  
 
     display: flex;
-    flex-direction: row;
-    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+ 
 
 
 }
 .team-soc-link:hover,
 .team-soc-link:focus {
     background-color: #2196F3;
-    fill:#2196F3;
+    color: var(--hero-text-color);
   
 }
 .team-soc-icon {
-    width: 44px;
-    height: 44px;
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
   
 }
 /* clients */
@@ -453,7 +450,7 @@ border-radius: 4px;
 .clients-icon {
     width: 170px;
     height: 92px;
-    fill:red;
+ 
 
 
 }
