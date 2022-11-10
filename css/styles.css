@@ -170,6 +170,14 @@ header .container {
     fill: currentColor;  
   
 }
+.mail-icon:hover,
+.mail-icon:focus {
+    color: var(--accent-color);
+}
+.tel-icon:hover,
+.tel-icon:focus {
+    color: var(--accent-color);
+}
 
 
 /* hero */
@@ -491,6 +499,7 @@ margin-right: 30px;
 .footer-soc-icon {
     width: 20px;
     height: 20px;
+    fill: var(--hero-text-color)
 
 }
 
